@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_webserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abavish/nodejs_webserver.git"
+  },
+  "author": "Vishal Nand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abavish/nodejs_webserver/issues"
+  },
+  "homepage": "https://github.com/abavish/nodejs_webserver#readme",
+  "dependencies": {
+    "express": "^4.16.0"
+  }
+}
