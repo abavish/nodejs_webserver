@@ -3,6 +3,7 @@ const express = require('express')
 //making a new express app
 var app = express()
 
+app.use(express.static(__dirname + '/public'))
 //setting up http route handlers
 //route handler for a get request to a url(root)
 app.get('/', (req, res) => {
@@ -26,4 +27,6 @@ app.get('/bad', (req, res) => {
   })
 })
 //binding an application to a port on our machine
-app.listen(3000)
+app.listen(3000, () => {
+  console.log('Server is ready on port 3000');
+})
